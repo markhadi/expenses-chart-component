@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-screen bg-neutral-cream  text-[15px] leading-none grid place-content-center md:text-[18px];
+  }
+
+  h1 {
+    @apply text-[30px] font-bold md:text-[48px];
+  }
+
+  h2 {
+    @apply text-[24px] font-bold md:text-[32px];
+  }
+}
